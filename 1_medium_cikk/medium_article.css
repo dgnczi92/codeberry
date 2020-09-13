@@ -57,5 +57,5 @@ a {
 }
 
 a:hover {
-    color: rgba(153, 153, 153, 1);  /* Ha az egeret a link fölé viszik, legyen a színe világosszürke */
-  }
+  color: rgba(153, 153, 153, 1);  /* Ha az egeret a link fölé viszik, legyen a színe világosszürke */
+}

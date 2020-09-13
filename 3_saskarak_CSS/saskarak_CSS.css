@@ -1,0 +1,92 @@
+html, body {
+    margin: 0;
+    padding: 0;  /* Ha lenullázzuk a margint és a paddinget, a kép ki fog érni a képernyő széléig. */
+    font-size: 17px;  /* A betűméret 17px lesz. */
+    line-height: 26px;  /* A sormagasság 26px lesz. */
+}
+
+html {
+    background-color: #444;  /* A háttér színe sötétszürke lesz. */
+    color: #999;  /* A szöveg színe világosszürke lesz. */
+}
+
+body {
+    font-family: "Raleway", sans-serif;  /* A betűtípus "Raleway" lesz. (HTML-ben linkelve) */
+}
+
+img {
+    width: 100%;  /* A kép szélessége. */
+}
+
+h1, h2 {
+    color: #fff;  /* Az egyes és kettes szintű címsorok fehér színűek lesznek. */
+}
+
+h1 {
+    background: rgb(0,0,0,.7);  /* Az egyes szintű címsorok háttere fekete lesz és 70%-ban átlátszó. */
+    text-align: center;  /* A szöveg középre rendezett lesz. */
+    position: relative;  /* Mozdítható lesz a kép az eredeti helyéhez képest úgy, hogy a helye továbbra is fennmarad. Ezután tudjuk használni a top, right, bottom és left tulajdonságokat. */
+    margin-top: -71.5px;
+    padding: 15px;  /* A felső és alsó padding 15px lesz. */
+}
+
+p, h2 {
+    width: 92.5%;  /* Az elemek szélessége 92.5% lesz. */
+    margin: 5px auto 20px auto; /* Megadjuk a felső és az alsó margókat, a jobb és baloldalit pedig auto-ra állítjuk, így a szöveg középre kerül. */
+}
+
+.lead {
+    background-color: hsla(60, 70%, 50%, 1);  /* Hue (színárnyalat), Saturation (színtelítettség), Lightness (világosság), Alpha (átlátszóság) */
+    padding: 15px;  /* Adunk a bekezdésnek 15px paddinget. */
+    color: rgba(0,0,0,.7);  /* A szöveg színe fekete lesz, 70%-os átlátszósággal. */
+    font-weight: 700;  /* A betűvastagság számmal jelölt értékei 100-tól 900-ig terjednek. */
+    font-size: 1.3em;  /* A betűméret a szülő elem (itt: body) betűméretének 1.3-szorosa. */
+    line-height: 1.4em;  /* A sor magassága a befogadó elem (itt: body) betűméretének 1.4-szerese. */
+    width: 92.5%;
+    margin-top: 40px;
+    border-radius: 6px;  /* A border-radius a sarkok lekerekítésére szolgál. */
+    text-align: justify;
+}
+
+table {
+    width: 92.5%;  /* Az elemek szélessége 92.5% lesz. */
+    margin: 25px auto;  /* A felső és alsó margók méreteit 25px-re, a jobb és bal oldalit pedig auto-ra állítjuk. */
+    border-collapse: collapse;  /* A táblázat szegélyeit egybevonja egymással. */
+}
+
+table, th, td, caption {
+    border: 1px solid #666;  /* A táblázat és elemeinek szegélyei 1px vastagságúak, solid-ak és közepesen szürke színűek lesznek. */
+    padding: 3.5px;
+}
+
+th {
+    background-color: #666;  /* A táblázat fejlécének színe közepesen szürke lesz. */
+}
+
+td {
+    text-align: center;  /* A táblázat celláiban a tartalom középre rendezett lesz. */
+}
+
+caption {
+    text-transform: uppercase;  /* A táblázat címe nagybetűssé válik. */
+    font-size: 14px;  /* A betűméret 14px lesz. */
+    font-weight: bold;  /* A betűvastagság "kiemelt" lesz. */
+}
+
+a {
+    color: lightblue;  /* A hivatkozás színe világoskék lesz. */
+}
+
+footer {
+    text-align: center;  /* A footer-ben a szöveg középre rendezett lesz. */
+    font-size: 11px;  /* A betűméret 11px lesz. */
+}
+
+strong {
+    color: #ccc;
+}
+
+hr {
+    border: 1px solid #666;
+    width: 92.5%;
+}
