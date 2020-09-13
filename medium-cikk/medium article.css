@@ -1,0 +1,61 @@
+h1, figcaption {
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif;  /* Meghatározzuk a betűtípust. */
+  text-align: center;  /* A szöveg középre rendezett */
+}
+
+h1 {
+  color: rgba(0,0,0,.8);  /* A szín legyen szürke. Az alpha az átlátszóságot határozza meg. */
+  font-size: 36px;  /* A betűméret legyen 36px. */
+}
+
+figcaption {
+  font-size: 11px;  /* A betűméret legyen 11px. */
+}
+
+img {
+  height: auto;  /* A height (magasság) adja meg az elem magasságát. Az auto érték azt mondja meg a böngészőnek, hogy nem ismerjük a pontos magasságot, de szeretnénk, ha arányos lenne. */
+  width: 100%;  /* A width (szélesség) adja meg az elem szélességét. Ha nem határozod meg az értékét, akkor a böngésző a kép eredeti méretét fogja használni. 100%-ot adtunk meg neki értékként, mégsem tölti ki a teljes oldalszélességet. Ezt mindjárt orvosoljuk. */
+}
+
+/* Annak ellenére, hogy 100%-ot adtunk meg a kép szélességének, nem tölti ki a teljes oldalt. Miért?
+
+Mivel fix helyett relatív szélességet határoztunk meg, a böngésző megkeresi a kép szülő elemét, és ennek a méretéhez igazítja a szélességet. Ha a szülő elem szélessége sem fix, akkor a böngésző megnézi a szülő elem szülőjének a szélességét, és így tovább, amíg sikerrel nem jár. */
+
+figure {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+/* Ha minden sikerült, akkor a kép már teljes szélességben kitölti az Output-panelt. */
+
+article {
+  max-width: 700px;  /* A rövidebb sorok könnyebben olvashatóak. Állíts be fix szélességet a bekezdéseidnek, hogy a képernyőmérettől függetlenül ugyanúgy nézzenek ki. */
+
+  padding: 10px;  /* Mivel a <body> elem margóját 0-ra állítottuk, a sorok az oldal legszélén kezdődnek. Ez így nem mutat túl jól, úgyhogy adjunk nekik némi térközt. */
+
+  margin-left: auto;  
+  margin-right: auto;  /* A bal és jobb oldali auto érték azt mondja a böngészőnek, hogy nem tudjuk, pontosan mekkora legyen a margó, de azt szeretnénk, hogy legyen egyenlő a két oldalon. Így a tartalom középre kerül. */
+}
+
+p {
+  color: rgba(0,0,0,.8);  /* A szín legyen szürke. Az alpha az átlátszóságot határozza meg. */
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;  /* Meghatározzuk a betűtípust. */
+  font-size: 21px;  /* A betűméret legyen 21px. */
+
+  letter-spacing: -.003em;  /* Ez a tulajdonság a karakterek közötti közöket állítja. A használatával esztétikusabbá és könnyebben olvashatóvá tehető a szöveg. 
+  
+  A példában használt érték mértékegysége nem px, hanem em. A pixellel ellentétben az em nem egy abszolút, hanem egy relatív mértékegység. Az adott elem betűmérete képezi az alapját: jelen példában a font-size értéke 21px, tehát a letter-spacing értéke 21px * -0.003 = -0.063px. A relatív egységek használata biztosítja, hogy a kijelzőmérettől függetlenül jól nézzen ki a tartalmad.*/
+
+  line-height: 1.58;  /* Ez a tulajdonság a szövegben a sormagasságot állítja. Nincs mértékegysége. */
+}
+
+a {
+  color: rgba(0,0,0,.8);  /* A szín legyen szürke. Az alpha az átlátszóságot határozza meg. */
+}
+
+a:hover {
+    color: rgba(153, 153, 153, 1);  /* Ha az egeret a link fölé viszik, legyen a színe világosszürke */
+  }
