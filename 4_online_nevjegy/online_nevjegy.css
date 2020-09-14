@@ -1,0 +1,135 @@
+/* CSS reset */
+
+/* 
+- minden margin és padding értéket 0-ra állít,
+- bekapcsolja a border-box box-sizing modellt (az elemek magasságába és szélességébe így a padding és a border is beletartozik, nem csupán a tartalom), és
+- 100%-ot állít be font-size értéknek.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);  /* Az elem maximum szélessége a böngészőablak teljes szélessége (vw = viewport) minusz 10px lesz. */
+}
+
+body {
+    display: flex;  /* Azt mondja a böngészőnek, hogy a body elem egy flexbox konténer, és ekként kell viselkednie. */
+    justify-content: center;  /* Az egyik tengely mentén középre rendezi a tartalmat. */
+    align-items: center;  /* Ez pedig a másik tengely mentén teszi ugyanezt. */
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;  /* A magasság legyen egyenlő a böngészőablak teljes magasságával (vh = viewport height). */
+}
+
+.head, .links {
+  text-align: center;  /* A .head és .links konténerek tartalma középre rendezett lesz. */
+}
+
+.head, .content {
+    width: 90%;
+    margin: 0 auto;  /* Középre húzzuk mindkettőt auto margin segítségével. */
+}
+
+img {
+    width: 120px;  /* Beállítjuk a méretét. */
+    height: 120px;
+    border-radius: 50%;  /* Kör alakúra vágjuk. */
+}
+
+.profile-image {
+    margin-top: -60px;  /* Feljebb mozgatjuk a tartalmazó konténert a méretének felével. */
+}
+
+/* Contact links */
+
+ul {
+    list-style-type: none;  /* Eltávolítjuk a fekete pontokat a listaelemek elől. */
+}
+  
+li {
+    display: inline;  /* Egymás mellé pozicionáljuk őket. */
+}
+
+.head, .about {
+    margin-bottom: 10%;  /* A szellősebb elrendezés érdekében növeljük a térközöket. */
+}
+  
+.content {
+    padding: 5% 10%;
+}
+
+body {
+    background: url("http://i.imgur.com/9kh3G8L.jpg") no-repeat center center fixed;
+    background-size: cover;  /* Mindig méretezze át úgy a háttérképet, hogy az lefedje a teljes aktuális hátteret. */
+}
+
+/* Az első background sor valójában a következő blokk rövidítése (shorthand):
+
+background-image: url("http://i.imgur.com/9kh3G8L.jpg");
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed; 
+
+Mindez megmondja a böngészőnek, hogy
+
+hol találja a háttérképet,
+egyszer jelenítse meg, ne ismételje,
+rendezze középre horizontálisan és vertikálisan és
+a kép ne gördüljön együtt az oldallal. */
+
+.profile-card {
+    background-color: hsla(0, 0%, 100%, .5);  /* A háttér átlátszó fehér lesz. */
+    border-radius: 4px;  /* Lekerekíti a sarkokat. */
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;  /* Árnyékokat adunk hozzá. */
+}
+
+img {
+    padding: 1px;
+    background-color: #666;
+    transition: all 0.5s ease-in-out;  /* Az img:hover alatt meghatározott tulajdonság fölvétele ennyi időn belül fog megvalósulni. */
+    filter: grayscale(50%);  /* Halványítunk a színeken. */
+}
+
+/* Hozzáadunk 1px vastag paddinget és egy szürke hátteret, így a profilfotót körbe fogja venni egy keskeny szürke csík. */
+
+.content {
+    border-top: 1px solid hsla(0, 0%, 30%, .8);  /* A content felső széléhez hozzáadunk egy keskeny szürke elválasztóvonalat. */
+}
+
+img:hover {
+    transform: scale(1.1);  /* Ha az egeret a profilfotó fölé visszük, az az 1.1-szeresére fog nőni. */
+    filter: grayscale(20%);  /* A színek némileg erősebbé válnak (az img eredeti 50%-os grayscale-jéhez képest). */
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+div.name-headline span {
+    font-size: small;
+    color: #666;
+}
+
+i.fas.fa-map-marker-alt, p, h2 {
+    color: #333;
+}
+
+.about i {
+    color: #666;
+}
+
+.links i {
+    color: rgba(100, 100, 100, 0.9)
+}

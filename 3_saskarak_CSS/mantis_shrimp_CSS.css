@@ -46,6 +46,7 @@ p, h2 {
     margin-top: 40px;
     border-radius: 6px;  /* A border-radius a sarkok lekerekítésére szolgál. */
     text-align: justify;
+    box-sizing: border-box;  /* Ezzel a beállítással az elemek magasságába és szélességébe a padding és a border is beletartozik, nem csupán a tartalom */
 }
 
 table {
