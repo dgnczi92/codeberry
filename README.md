@@ -6,3 +6,4 @@ Exercises from codeberryschool.com.
 3. <a href="https://dgnczi92.github.io/codeberry/3_saskarak_CSS/mantis_shrimp_CSS.html">Sáskarák CSS</a>
 4. <a href="https://dgnczi92.github.io/codeberry/4_online_nevjegy/online_nevjegy.html">Online névjegy</a>
 5. <a href="https://dgnczi92.github.io/codeberry/5_mondrian-festmeny/mondrian-festmeny.html">Mondrian-festmény</a>
+6. <a href="https://dgnczi92.github.io/codeberry/6_flexibilis_blogsablon/flexibilis_blogsablon">Flexibilis blogsablon</a>
