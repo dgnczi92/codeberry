@@ -1,0 +1,125 @@
+#canvas {
+    width: 300px;  /* Méretet és háttérszínt adunk a vászonnak. */
+    height: 300px;
+    background-color: ivory;
+    margin: 0 auto;  /* A vásznat az oldalon horizontálisan középre helyezzük. */
+    box-shadow: 15px 15px 10px gray;  /* Árnyékot adunk a vászonnak. */
+}
+
+/* A box-shadow (doboz-árnyék) több paraméterrel működik:
+
+"box-shadow: h-shadow v-shadow [blur] [spread] color;"
+
+KÖTELEZŐ PARAMÉTEREK:
+- H-shadow: Az árnyék vízszintes irányú (horizontal) pozíciója.
+- V-shadow: Az árnyék függőleges (vertical) pozíciója.
+- Color: Az árnyék színe.
+
+NEM KÖTELEZŐ PARAMÉTEREK:
+- Blur: Elmosódottság, homályosság.
+- Spread: Kiterjedés. */
+
+#first-row {
+    height: 75%;  /* A magassága a vászont teljes magasságának 75%-a */
+    width: 100%;  /* A szélessége egyenlő a vászon szélességével. */
+}
+
+#big-rectangle {
+    height: 100%;  /* A magassága egyenlő az első sor magasságával. */
+    width: 75%;  /* A szélessége az első sor szélességének 75%-a. */
+}
+
+.red {
+    background-color: red;
+}
+
+.right {
+    float: right;  /* Jobbra lebegtetés. */
+}
+
+.black {
+    background-color: black;
+}
+
+#first-divider {
+    height: 100%;  /* A magassága egyenlő az első sor magasságával. */
+    width: 3%;  /* A szélessége az első sor szélességének 3%-a. */
+}
+
+#first-column {
+    height: 100%;  /* A magassága egyenlő az első sor magasságával. */
+    width: 22%;  /* A szélessége az első sor szélességének 22%-a. */
+}
+
+#second-divider {
+    height: 3%;  /* A magassága az első oszlop magasságának 3%-a. */
+    width: 100%;  /* A szélessége egyenlő az első oszlop szélességével. */
+}
+
+#first-medium-rectangle {
+    height: 48.5%;  /* A magassága az első oszlop magasságának 48.5%-a. */
+    width: 100%;  /* A szélessége egyenlő az első oszlop szélességével. */
+}
+
+#second-medium-rectangle {
+    height: 48.5%;  /* A magassága az első oszlop magasságának 48.5%-a. */
+    width: 100%;  /* A szélessége egyenlő az első oszlop szélességével. */
+}
+
+#second-row {
+    height: 3%;  /* A magassága a vászon magasságának 3%-a. */
+    width: 100%;  /* A szélessége egyenlő a vászon szélességével. */
+}
+
+#third-row {
+    height: 22%;  /* A magassága a vászon magasságának 22%-a. */
+    width: 100%;  /* A szélessége egyenlő a vászon szélességével. */
+}
+
+#last-column {
+    height: 100%;  /* A magassága egyenlő a harmadik sor magasságával. */
+    width: 5%;  /* A szélessége a harmadik sor szélességének 5%-a. */
+}
+
+#first-tiny-rectangle {
+    height: 45%;  /* A magassága az utolsó oszlop magasságának 45%-a. */
+    width: 100;  /* A szélessége egyenlő az utolsó oszlop szélességével. */
+}
+
+#third-divider {
+    height: 10%;  /* A magassága az utolsó oszlop magasságának 10%-a. */
+    width: 100%;  /* A szélessége egyenlő az utolsó oszlop szélességével. */
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+#second-tiny-rectangle {
+    height: 45%;  /* A magassága az utolsó oszlop magasságának 45%-a. */
+    width: 100;  /* A szélessége egyenlő az utolsó oszlop szélességével. */
+}
+
+#fourth-divider {
+    height: 100%;  /* A magassága egyenlő a harmadik sor magasságával. */
+    width: 3%;  /* A szélessége a harmadik sor szélességének 3%-a. */
+}
+
+#wide-rectangle {
+    height: 100%;  /* A magassága egyenlő a harmadik sor magasságával. */
+    width: 67%;  /* A szélessége a harmadik sor szélességének 67%-a. */
+}
+
+#fifth-divider {
+    height: 100%;  /* A magassága egyenlő a harmadik sor magasságával. */
+    width: 3%;  /* A szélessége a harmadik sor szélességének 3%-a. */
+}
+
+#small-rectangle {
+    height: 100%;  /* A magassága egyenlő a harmadik sor magasságával. */
+    width: 22%;  /* A szélessége a harmadik sor szélességének 22%-a. */
+}
+
+.blue {
+    background-color: blue;
+}
