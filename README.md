@@ -7,3 +7,4 @@ Exercises from codeberryschool.com.
 4. <a href="https://dgnczi92.github.io/codeberry/4_online_nevjegy/online_nevjegy.html">Online névjegy</a>
 5. <a href="https://dgnczi92.github.io/codeberry/5_mondrian-festmeny/mondrian-festmeny.html">Mondrian-festmény</a>
 6. <a href="https://dgnczi92.github.io/codeberry/6_flexibilis_blogsablon/flexibilis_blogsablon">Flexibilis blogsablon</a>
+7. <a href="https://dgnczi92.github.io/codeberry/7_gombok/buttons.html">Gombok</a>
