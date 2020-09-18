@@ -1,0 +1,56 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ==== A SIMPLE TOP NAVIGATION ==== */
+
+nav {
+    font-size: 0px;
+}
+
+/* Ha a teljes nav betűméretét 0 pixelre állítjuk a köztes szóközök nem foglalnak helyet, így a kis térközök eltűnnek a nav linkjei közül. */
+
+nav ul {
+    background-color: #eee;
+    text-align: center;
+}
+
+nav li {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    height: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* A line-height és a height tulajdonságoknak vertikálisan középre rendezik az elemen belül a szöveget. */
+
+nav a {
+    text-decoration: none;
+    color: #C74F78;
+    display: block;
+}
+
+/* A display: block;-nak köszönhetően az anchor elemek kitöltik az li tageket. Ez megnöveli a kattintható terület méretét a teljes szélességre és magasságra, így könnyebb ráklikkelni a navigációs linkekre. */
+
+nav a:hover {
+    background-color: #fff;
+    transition: background-color .3s ease-in-out;
+}    
+
+nav a.active {
+    background-color: #c74f78;
+    color: #eee;
+}
+
+@media (min-width: 600px) {
+
+    nav li {
+      display: inline-block;
+      border-bottom: none;
+      width: 7.5rem;
+    }
+  
+}
