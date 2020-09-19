@@ -9,3 +9,4 @@ Exercises from codeberryschool.com.
 6. <a href="https://dgnczi92.github.io/codeberry/6_flexibilis_blogsablon/flexibilis_blogsablon">Flexibilis blogsablon</a>
 7. <a href="https://dgnczi92.github.io/codeberry/7_gombok/buttons.html">Gombok</a>
 8. <a href="https://dgnczi92.github.io/codeberry/8_navigacio/navigation.html">Navigáció</a>
+8. <a href="https://dgnczi92.github.io/codeberry/9_rogzitett_felso_navigacio/floated_fixed_top_nav.html">Rögzített felső navigáció</a>

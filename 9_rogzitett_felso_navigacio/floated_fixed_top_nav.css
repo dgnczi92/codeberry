@@ -1,0 +1,87 @@
+/* ==== GENERAL STYLES ==== */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ==== A FLOATED TOP NAVIGATION ==== */
+
+nav {
+    background-color: rgba(0,0,0,.9);
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    display: block;  /* Megnöveli a kattintható területet, és lehetővé teszi, hogy az <a> tagek box-modell értékeket fogadjanak. */
+    padding: .5rem 1rem;  /* A "Sign up" gomb hosszúkás megjelenéséért felel. */
+    color: #fff;
+}
+
+nav a:hover {
+    color: hsl(0, 0%, 77%);
+    transition: color .15s ease-in-out;
+}
+
+/* A linkek alig észrevehetően szürkévé válnak, amikor egérrel rájuk mutat valaki. */
+
+.sign-up {
+    border: 1px solid hsla(0,0%,100%,.2);
+    border-radius: 9999px;  /* Félkör alakú lekerekítés. */
+}
+
+.sign-up:hover {
+    color: #000;
+    background-color: #fff;
+    transition: background-color .15s ease-in-out;
+}
+
+/*  A "Sign Up" gomb hover állapotban inverz színekre vált. */
+
+@media (min-width: 768px) {
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+
+    nav a {
+        float: right;
+    }
+
+    .home {
+        float: left;
+    }
+
+    /* Clearfix */
+    nav::after {
+        content: "";
+        clear: both;
+        display: block;
+    }
+
+    /* A nav elem után beilleszt egy üres pszeudoelemet, ami block elemként jelenik meg és rendezi a floatokat a clear: both; segítségével. */
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Space Mono', monospace;
+}
+
+@media (min-width: 768px) {
+
+    body {
+      width: 60%;
+      margin: 5.25rem auto 1.25rem;  /* A margin-top akadályozza meg, hogy a tartalom a navbar alá csússzon. */
+    }
+  
+}
+  
+p {
+    margin-bottom: 1.25rem;
+    padding: .5rem;
+}
