@@ -72,6 +72,14 @@
     height: 100vh;
     width: 100vw;
   }
+
+  @media (min-width: 768px) {
+
+    .cover {
+      background: url('https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/103457807_2963364327117471_4065987256322038859_o.jpg?_nc_cat=104&_nc_sid=e3f864&_nc_ohc=KBhvaXUc2QMAX_mjtod&_nc_ht=scontent-vie1-1.xx&oh=d597a639bd85d23f4555f672da4135b2&oe=5F8E1F35') no-repeat center/cover;
+    }
+  
+  }
   
   .hero-text-wrapper {
     display: table-cell;
@@ -79,7 +87,7 @@
   }
   
   .hero-text {
-    margin: 0 auto;
+    margin: 25rem auto 0 auto;
     padding: .625rem;
     color: hsla(0,0%,100%,.9);
     background: hsla(100,0%,0%,.5);
@@ -91,9 +99,31 @@
     margin-bottom: 0; /* To negate the effect of the single-direction margin declaration. */
   }
   
+  @media (min-width: 768px) {
+
+    .hero-text {
+      padding: 1.25rem;
+      border-radius: 4px;
+      width: 50%;
+    }
+  
+    .hero-text h1 {
+      font-size: 7rem;
+    }
+  
+  }
+
   .tagline {
     font-size: 1.25rem;
     letter-spacing: .15rem;
+  }
+
+  @media (min-width: 768px) {
+
+    .tagline {
+      text-transform: uppercase;
+    }
+  
   }
   
   .tagline::after {
@@ -150,6 +180,21 @@
     background-color: #444349;
   }
 
+  @media (min-width: 768px) {
+
+    .blurb {
+      display: inline-block;
+      width: 30%;
+      padding: 1.5rem;
+      margin: .5rem;
+    }
+  
+    .blurb::after {
+      display: none;
+    }
+  
+  }
+
 /* =============================
 
     A PROGRAMOK STÍLUSAI
@@ -176,6 +221,15 @@
   
   .program ul {
     letter-spacing: .025rem;
+  }
+
+  @media (min-width: 768px) {
+
+    .program-wrapper {
+      width: 30vw;
+      margin: 0 auto;
+    }
+  
   }
 
 /* =============================
@@ -232,6 +286,26 @@
     margin-bottom: 1.5rem;
   }
 
+  @media (min-width: 768px) {
+
+    .question-group {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      padding: 1.5rem;
+      margin: .5rem;
+    }
+  
+    .question-group::after {
+      display: none;
+    }
+  
+    .question-group h3 {
+      text-align: left;
+    }
+  
+  }
+
 /* =============================
 
     FOOTER STÍLUSOK
@@ -247,6 +321,14 @@ footer {
     display: table;
     text-align: center;
     font-size: .875rem;
+  }
+
+  @media (min-width: 768px) {
+
+    footer {
+      min-height: 7vh;
+    }
+  
   }
   
   .footer-wrapper {
