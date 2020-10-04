@@ -14,3 +14,5 @@ Exercises from codeberryschool.com.
 11. <a href="https://dgnczi92.github.io/codeberry/11_teljes_kepernyos_header/fullscreen_article_header.html">Teljes képernyős header</a>
 12. <a href="https://dgnczi92.github.io/codeberry/12_footer/footer.html">Footer</a>
 13. <a href="https://dgnczi92.github.io/codeberry/13_eskuvoi_weboldal/eskuvoi_weboldal.html">Esküvői weboldal</a>
+14. <a href="https://dgnczi92.github.io/codeberry/14_wikipedia_szocikk/wikipedia_szocikk.html">Wikipédia szócikk</a>
+15. <a href="https://dgnczi92.github.io/codeberry/15_test-project/princess.html">Princess Illusion</a>
