@@ -16,3 +16,4 @@ Exercises from codeberryschool.com.
 13. <a href="https://dgnczi92.github.io/codeberry/13_eskuvoi_weboldal/eskuvoi_weboldal.html">Esküvői weboldal</a>
 14. <a href="https://dgnczi92.github.io/codeberry/14_wikipedia_szocikk/wikipedia_szocikk.html">Wikipédia szócikk</a>
 15. <a href="https://dgnczi92.github.io/codeberry/15_test-project/princess.html">Princess Illusion</a>
+16. <a href="https://dgnczi92.github.io/codeberry/16_bootstrap-test/bootstrap_test.html">Bootstrap Test</a>
